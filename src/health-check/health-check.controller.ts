@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class HealthCheckController {
   @Get()
   healthCheck() {
-    return 'client gateway is running';
+    return 'payments ms is running';
   }
 }
