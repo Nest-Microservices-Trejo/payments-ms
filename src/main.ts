@@ -30,7 +30,7 @@ async function bootstrap() {
   );
   await app.startAllMicroservices();
   await app.listen(envs.port);
-
+  logger.log(`Heal Check configured`);
   logger.log(`Application running on port ${envs.port}`);
 }
 void bootstrap();
